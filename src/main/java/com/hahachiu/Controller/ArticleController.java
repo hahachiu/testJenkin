@@ -11,6 +11,7 @@ public class ArticleController {
     @ResponseBody
     public String getUserAll() {
 
-        return "test jenkin~";
+        return "test jenkin~" +
+                "test2 success~!";
     }
 }
